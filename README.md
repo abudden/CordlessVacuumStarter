@@ -8,6 +8,8 @@ The source code of this project is maintained using [https://mercurial-scm.org](
 
 # Downloading Pre-Compiled Binaries
 
+Binary files for the various sockets are available [https://github.com/abudden/CordlessVacuumStarter/releases](at this link).
+
 # Compilation
 
 There are a couple of ways you can compile this project:
