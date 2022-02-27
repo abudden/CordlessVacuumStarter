@@ -1,0 +1,11 @@
+syntax: glob
+
+./build
+./.mbed
+.git
+*.pyc
+tags
+types_*.taghl
+simulations/*.lck
+_SocketInfo.h
+release_*.zip

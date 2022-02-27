@@ -1,0 +1,11 @@
+build/**
+.mbed
+*.pyc
+tags
+types_*.taghl
+simulations/*.lck
+_SocketInfo.h
+DataCapture433
+tools
+.hg
+release*.zip

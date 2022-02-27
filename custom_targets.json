@@ -1,0 +1,24 @@
+{
+    "WEACT_BLACKPILL_F411CE": {
+        "inherits": ["FAMILY_STM32"],
+        "core": "Cortex-M4F",
+        "default_toolchain": "GCC_ARM",
+        "extra_labels_add": ["STM32F4", "STM32F411xE", "STM32F411CE"],
+        "macros_add": ["STM32F4", "STM32F411xE", "STM32F411CE", "WEACT_BLACKPILL_F411CE"],
+        "supported_toolchains": ["GCC_ARM"],
+        "device_has_add": [],
+        "device_name": "STM32F411CE",
+        "device_has_remove": ["STDIO_MESSAGES", "LPTICKER"]
+    },
+    "ST_NUCLEO_F411RE": {
+        "inherits": ["FAMILY_STM32"],
+        "core": "Cortex-M4F",
+        "default_toolchain": "GCC_ARM",
+        "extra_labels_add": ["STM32F4", "STM32F411xE", "STM32F411RE"],
+        "macros_add": ["STM32F4", "STM32F411xE", "STM32F411RE", "ST_NUCLEO_F411RE"],
+        "supported_toolchains": ["GCC_ARM"],
+        "device_has_add": [],
+        "device_name": "STM32F411RE",
+        "device_has_remove": ["STDIO_MESSAGES", "LPTICKER"]
+    }
+}

@@ -1,0 +1,6 @@
+version: "2"
+services:
+    cordlessvacuumstarterbuild:
+        build: docker/
+        volumes:
+            - .:/home/al/project
